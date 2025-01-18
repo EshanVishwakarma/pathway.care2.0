@@ -16,6 +16,7 @@ import { AboutUsPage } from './pages/landing/AboutUsPage';
 import { ProvidersPage } from './pages/landing/ProvidersPage';
 import { PublicResourcesPage } from './pages/landing/PublicResourcesPage';
 import { NotFoundPage } from './pages/landing/NotFoundPage';
+import FormPage from './pages/FormPage';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/providers" element={<ProvidersPage />} />
         <Route path="/resources" element={<PublicResourcesPage />} />
         <Route path="/auth" element={<AuthPage />} />
+        <Route path="/form" element={<FormPage />} />
 
         {/* Protected Dashboard Routes */}
         <Route path="/dashboard" element={<DashboardLayout />}>
