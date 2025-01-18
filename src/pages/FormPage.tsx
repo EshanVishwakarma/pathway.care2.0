@@ -38,10 +38,10 @@ export default function FormPage() {
                 </Link>
               ))}
               <Link
-                to="/auth"
+                to="/form"
                 className="px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors font-medium shadow-md"
               >
-                Sign In/Sign Up
+                Join Our Community
               </Link>
             </div>
             <div className="flex items-center md:hidden">
@@ -72,11 +72,11 @@ export default function FormPage() {
                   </Link>
                 ))}
                 <Link
-                  to="/auth"
+                  to="/form"
                   className="block px-3 py-2 rounded-md text-base font-medium bg-blue-600 text-white hover:bg-blue-700"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Sign In/Sign Up
+                  Join Our Community
                 </Link>
               </div>
             </div>
