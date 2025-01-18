@@ -1,2 +1,1 @@
-mkdir -p public
-echo "www.pathway.care" > public/CNAME
+pathway.care
