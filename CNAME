@@ -1,1 +1,2 @@
-pathway.care
+mkdir -p public
+echo "www.pathway.care" > public/CNAME
