@@ -174,7 +174,7 @@ export function LandingPage() {
             </div>
             <div className="mt-8 flex items-center space-x-4">
               <Link
-                to="/auth"
+                to="/form"
                 className="px-6 py-3 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors inline-flex items-center"
               >
                 Get Started
@@ -272,7 +272,7 @@ export function LandingPage() {
             Pathway Care
           </p>
           <Link
-            to="/auth"
+            to="/form"
             className="inline-flex items-center px-6 py-3 rounded-lg bg-gold text-gold-700 hover:bg-gold-50 transition-colors"
           >
             Get Started Now
