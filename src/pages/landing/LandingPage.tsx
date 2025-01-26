@@ -162,7 +162,7 @@ export function LandingPage() {
                 to="/form"
                 className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors"
               >
-                Get Started
+                Free Signup
               </Link>
             </div>
             <p className="text-xl text-gray-600 mb-8">
@@ -185,7 +185,7 @@ export function LandingPage() {
                 to="/form"
                 className="px-6 py-3 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors inline-flex items-center"
               >
-                Get Started
+                Free Signup
               </Link>
             </div>
           </motion.div>
