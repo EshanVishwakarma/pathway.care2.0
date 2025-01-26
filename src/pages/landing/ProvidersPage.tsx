@@ -46,7 +46,7 @@ export function ProvidersPage() {
                 to="/form"
                 className="px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors font-medium shadow-md"
               >
-                Join Our Community
+                Free Signup
               </Link>
             </div>
             <div className="flex items-center md:hidden">
@@ -82,7 +82,7 @@ export function ProvidersPage() {
                   className="block px-3 py-2 rounded-md text-base font-medium bg-blue-600 text-white hover:bg-blue-700"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Join Our Community
+                  Free Signup
                 </Link>
               </div>
             </div>
