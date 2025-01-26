@@ -157,6 +157,15 @@ export function LandingPage() {
             <h1 className="text-5xl font-bold text-gold-800 leading-tight mb-6">
               Transforming Cancer Survivorship Care, For A Better You
             </h1>
+            <div className="block lg:hidden mb-8">
+              <Link
+                to="/form"
+                className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors"
+              >
+                Get Started
+              </Link>
+              <p className="text-gray-600 mt-2">*Covered By Insurance</p>
+            </div>
             <p className="text-xl text-gray-600 mb-8">
               Personalized Survivorship Support for Cancer Survivors, Preventing
               Long-Term Side Effects and Building Community
@@ -172,14 +181,13 @@ export function LandingPage() {
                 </div>
               ))}
             </div>
-            <div className="mt-8 flex items-center space-x-4">
+            <div className="mt-8 hidden lg:flex items-center space-x-4">
               <Link
                 to="/form"
                 className="px-6 py-3 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors inline-flex items-center"
               >
                 Get Started
               </Link>
-              {/* Add insurance coverage message */}
               <p className="text-gray-600 mt-4">*Covered By Insurance</p>
             </div>
           </motion.div>
