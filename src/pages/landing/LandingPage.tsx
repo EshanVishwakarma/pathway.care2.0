@@ -164,7 +164,6 @@ export function LandingPage() {
               >
                 Get Started
               </Link>
-              <p className="text-gray-600 mt-2">*Covered By Insurance</p>
             </div>
             <p className="text-xl text-gray-600 mb-8">
               Personalized Survivorship Support for Cancer Survivors, Preventing
@@ -188,7 +187,6 @@ export function LandingPage() {
               >
                 Get Started
               </Link>
-              <p className="text-gray-600 mt-4">*Covered By Insurance</p>
             </div>
           </motion.div>
           <motion.div
