@@ -85,18 +85,16 @@ export default function FormPage() {
       </nav>
 
       {/* Form Content */}
-      <div className="container mx-auto py-8 px-4">
-        <iframe 
-          src="https://docs.google.com/forms/d/e/1FAIpQLSeFsBw-zPiHxVrLcYnJzE7ClRPHxnx6pas_xbYHyY-PPwYUqg/viewform?embedded=true" 
-          width={640} 
-          height={1834} 
-          frameBorder={0} 
-          marginHeight={0} 
-          marginWidth={0}
-          className="mx-auto block"
-        >
-          Loading…
-        </iframe>
+      <div className="container mx-auto py-8 px-4 max-w-4xl">
+        <div className="relative w-full overflow-hidden pb-[150%] sm:pb-[120%] md:pb-[100%] shadow-lg rounded-lg">
+          <iframe 
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeFsBw-zPiHxVrLcYnJzE7ClRPHxnx6pas_xbYHyY-PPwYUqg/viewform?embedded=true" 
+            className="absolute top-0 left-0 w-full h-full border-0"
+            title="Pathway Care Community Form"
+          >
+            Loading…
+          </iframe>
+        </div>
       </div>
     </div>
   );
