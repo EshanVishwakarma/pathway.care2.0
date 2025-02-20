@@ -5,7 +5,6 @@ import { AuthForm } from '../../components/auth/AuthForm';
 import { useAuthStore } from '../../store/auth.store';
 import logo from '/public/Logo 2.png';
 import connectlogo from '/public/Connect Logo.png';
-import { MobileWarning } from '/src/components/mobilewarning';
 import { useIsMobile } from '/src/useismobile';
 
 const LoadingScreen = ({ message }: { message: string }) => (
@@ -81,7 +80,6 @@ export function AuthPage() {
   const { user, setAuth } = useAuthStore();
   const [error, setError] = useState<string | null>(null);
   const [isLinking, setIsLinking] = useState(false);
-  const isMobile = useIsMobile();
 
   useEffect(() => {
     return () => {
@@ -97,10 +95,6 @@ export function AuthPage() {
 
   if (user) {
     return <Navigate to="/dashboard" replace />;
-  }
-
-  if (isMobile) {
-    return <MobileWarning />;
   }
 
   const handleSubmit = async (data: AuthFormData) => {
